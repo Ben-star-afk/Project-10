@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkblue;
+    color: antiquewhite;
+    }
+    h1{
+        color:  crimson;
+    }
+    a{
+        color: aquamarine;
+        text-decoration: none;
+    }
+    a:hover{
+        color: darkred;
+    }
+    ul>li{
+        font-weight: bold;
+    }
+    h1+p{
+        background-color: aquamarine;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    ul li:hover{
+        color: black;
+    }
+    ul li:nth-child(2){
+        background-color: brown;
+    }
+    p:not(:first-of-type){
+        text-decoration: underline;
+    }
+    ul li::before{
+        content:"🤔" ;
+    }
+a::after{
+    content: "🫎";
+}
+p::first-letter{
+    font-size: 50px;
+    color: cadetblue;
+}
